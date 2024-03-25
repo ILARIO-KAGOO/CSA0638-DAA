@@ -18,7 +18,7 @@ void multiplyMatrix(int mat1[N][N], int mat2[N][N], int res[N][N], int size) {
 int main() {
     int mat1[N][N], mat2[N][N], res[N][N];
 
-    srand(time(NULL));
+    // srand(time(NULL));
 
     for (int i = 0; i < N; i++) {
         for (int j = 0; j < N; j++) {

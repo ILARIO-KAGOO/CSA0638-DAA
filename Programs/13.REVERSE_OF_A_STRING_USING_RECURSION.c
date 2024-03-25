@@ -3,7 +3,7 @@
 void reverseString(char *str) {
     if (*str) {
         reverseString(str + 1);
-        printf("%c", *str); 
+        printf("%c", *str);
     }
 }
 

@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <limits.h>
 
-#define V 5 
+#define V 2
 
 int minKey(int key[], int mstSet[]) {
     int min = INT_MAX, min_index;

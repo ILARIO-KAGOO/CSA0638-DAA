@@ -7,7 +7,6 @@ bool isPrime(int n, int i) {
         return false;
     if (i * i > n)
         return true;
-    
     return isPrime(n, i + 1);
 }
 
